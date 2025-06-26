@@ -1,0 +1,23 @@
+a=int(input("Enter the year: "))
+b=a-2000
+d=b//4
+c=b-d
+g=d*2 
+e=c+g 
+f=e%7
+print(f)
+if(f==0):
+    print("Sunday")
+if(f==1):
+    print("Monday")
+if(f==2):    
+    print("Tuesday")
+if(f==3):    
+    print("Wednesday")
+if(f==4):    
+    print("Thursday")
+if(f==5):    
+    print("Friday")
+if(f==6):
+    print("Saturday")
+    
